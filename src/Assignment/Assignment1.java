@@ -9,6 +9,8 @@ public class Assignment1 {
 		// TODO Auto-generated method stub
 	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 	WebDriver driver= new ChromeDriver();
+	
+	
 	driver.get("https://qatechhub.com/");
 	
 	driver.manage().window().maximize();
